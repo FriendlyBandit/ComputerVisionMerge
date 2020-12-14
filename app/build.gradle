@@ -32,9 +32,11 @@ dependencies {
     // https://github.com/javagl/Obj
     implementation 'de.javagl:obj:0.2.1'
 
+    //The 2 below this comment are specifically for HelloAR java.
     //implementation 'com.android.support:appcompat-v7:27.0.2'
     //implementation 'com.android.support:design:27.0.2'
-
+    //OOOH BIIIG. I was using OLD version of helloAR. New version should work waaaaay better
+    //That is GOOD news :))))))
     implementation 'androidx.appcompat:appcompat:1.1.0'
     implementation 'com.google.android.material:material:1.1.0'
 
